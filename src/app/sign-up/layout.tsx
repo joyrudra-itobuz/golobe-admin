@@ -8,7 +8,7 @@ export default function Layout({ children }: { children: JSX.Element }) {
       <div className=''>
         <Sidebar />
       </div>
-      <div className='relative h-screen'>
+      <div className='relative h-screen w-full'>
         <Navbar />
         <div className='mt-10'>{children}</div>
       </div>
